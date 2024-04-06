@@ -1,0 +1,16 @@
+package com.wipro.springcore;
+
+public class App 
+{
+    public static void main( String[] args ){
+    	
+    	Square s = new Square();
+    	s.setSide(4);
+    	
+    	ShapeService service = new ShapeService();
+    	service.setShape(s);
+      
+    	double area = service.findArea();
+    	System.out.println(area);
+    }
+}

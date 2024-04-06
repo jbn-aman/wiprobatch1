@@ -1,0 +1,10 @@
+package com.wipro.springcore;
+
+public class Circle implements Shape {
+	
+	@Override
+	public double area() {
+		System.out.println("circle area");
+		return 0;
+		}
+}

@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>MY FIRST WEBSITE</title>
+<style>
+body {
+	background-color:pink;
+	}
+</style>
+</head>
+<body>
+<h1 style="color"; >My First Website</h1>
+</body>
+</html>

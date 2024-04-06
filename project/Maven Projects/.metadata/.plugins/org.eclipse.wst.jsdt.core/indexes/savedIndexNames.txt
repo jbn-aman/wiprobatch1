@@ -1,0 +1,8 @@
+INDEX VERSION 1.4+D:\my\gitrepo\Maven Projects\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+464197749.index
+583501094.index
+3837450378.index
+516661844.index
+1584897234.index
+469908403.index
+1956852363.index

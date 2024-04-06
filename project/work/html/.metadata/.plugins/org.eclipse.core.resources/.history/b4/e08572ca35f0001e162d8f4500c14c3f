@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>MyWebsite</title>
+<style>
+body {
+	background-color:pink;
+	}
+</style>
+</head>
+<body>
+ <h1 style="color:black;text-align:center;">TECHNOLOGY NEWS and UPDATES</h1>
+</body>
+</body>
+</html>

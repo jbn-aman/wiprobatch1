@@ -1,0 +1,10 @@
+package com.wipro.myapp2;
+
+public class Jdbcdemo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

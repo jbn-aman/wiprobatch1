@@ -1,0 +1,11 @@
+package com.wipro.springcore;
+
+public class Square implements Shape{
+
+	@Override
+	public double area() {
+		System.out.println("Square area ");
+		return 0;
+	}
+
+}

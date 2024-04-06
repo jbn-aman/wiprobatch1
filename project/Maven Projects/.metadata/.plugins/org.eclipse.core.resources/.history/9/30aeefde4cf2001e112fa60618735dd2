@@ -1,0 +1,22 @@
+package com.wipro.springcore.main;
+
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+import com.wipro.springcore.bean.Book;
+
+
+
+public class BookAuthorMain {
+	
+	public static void main(String[] args) {
+		
+		ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("mycontext.xml");
+		Book book1 = (Book) context.getBean("book1");
+		
+		System.out.println("Book Id: "+book1.getBookId());
+		System.out.println("Book Name: "+book1.getBookName());
+		
+
+	}
+
+}

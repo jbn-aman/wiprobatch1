@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="ISO-8859-1">
+    <title>Poetry Website - Home</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+
+        /* Additional Styles */
+        .poetry-sample {
+            margin-bottom: 20px;
+        }
+
+        .poetry-sample img {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Poetry Website</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <!-- Content for Home Page -->
+        <h2>Poetry Samples</h2>
+        <p>Here are some Poem couplets:</p>
+        <div class="Poems With Couplets">
+            <img src="poetry1.jpg" alt="A Minor Bird">
+            <p>I have wished a bird would fly away,
+And not sing by my house all day;
+
+Have clapped my hands at him from the door
+When it seemed as if I could bear no more.
+
+The fault must partly have been in me.
+The bird was not to blame for his key.
+
+And of course there must be something wrong
+In wanting to silence any song..</p>
+        </div>
+        <div class="poetry-sample">
+            <img src="poetry2.jpg" alt="Poetry Sample 2">
+            <p>This is the second poetry sample. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 Poetry Website</p>
+    </footer>
+</body>
+</html>

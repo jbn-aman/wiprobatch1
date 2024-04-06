@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Media demo</title>
+</head>
+<body>
+
+<h2>Audio Playback</h2>
+
+<audio controls>
+   <source src = "../assets/horse.mp3" type = "audio"/>
+</audio>
+
+</body>
+</html>

@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>InlineCSSdemo</title>
+</head>
+<body>
+
+	<h1 style="color:red; text-align:center">Sample Heading</h1>
+
+<p style= "color:blue; font-size:30px;">This is Para 1</p>
+<p>This is Para 2</p>
+</body>
+</html>

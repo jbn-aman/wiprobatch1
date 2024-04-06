@@ -1,0 +1,11 @@
+package com.wipro.springcore;
+
+public class triangle implements Shape {
+
+	@Override
+	public double area() {
+		System.out.println("triangle area");
+		return 0;
+		
+	}
+}

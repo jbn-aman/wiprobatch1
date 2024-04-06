@@ -1,0 +1,12 @@
+package com.wipro.springcore;
+
+public class Circle {
+	
+	public double area() {
+		System.out.println("circle area");
+		
+		return 0;
+		
+	}
+
+}

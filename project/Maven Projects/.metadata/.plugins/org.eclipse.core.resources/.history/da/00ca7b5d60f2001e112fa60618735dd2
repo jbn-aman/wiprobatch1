@@ -1,0 +1,9 @@
+package com.wipro.springcore2;
+
+public class Product {
+	
+	private int productId;
+	private String productName;
+	private double productPrice;
+
+}

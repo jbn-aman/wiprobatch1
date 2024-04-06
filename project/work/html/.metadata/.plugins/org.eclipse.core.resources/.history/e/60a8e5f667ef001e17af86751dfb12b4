@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Media demo</title>
+</head>
+<body>
+
+	<h2>Audio Playback</h2>
+
+	<audio controls>
+		<source src="../assets/horse.mp3" type="audio/mp3" />
+	</audio>
+
+	<h2>Vedio Playback</h2>
+
+	<video width="290" height="260" controls>
+		<source src="../asets/mov.mp4" type="vedio/mp4" />
+	</video>
+</body>
+</html>

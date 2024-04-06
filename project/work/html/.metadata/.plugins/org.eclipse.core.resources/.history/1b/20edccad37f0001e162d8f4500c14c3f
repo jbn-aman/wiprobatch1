@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>MyWebsite</title>
+<style>
+body {
+	background-color:pink;
+	}
+img {
+  
+  align:center;
+  max-width: 100%;
+  height: auto;
+}
+</style>
+</head>
+<body>
+ <h1 style="background-color:white;color:black;text-align:center;">TECHNOLOGY NEWS and UPDATES</h1>
+ 
+ <div>
+ <img src="../../assets/Tech.jpg" alt="Cinque Terre" width="1000" height="300" class = center>
+ </div>
+ 
+</body>
+</body>
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Registration</title>
+</head>
+<body>
+
+	<h2>Customer Registration</h2>
+
+	<form>
+	<div>
+	
+	<label>First name</label>
+	<input type = "text" value ="fname"/>
+		
+	</div>
+	<div>
+	
+	<label>First Last name</label>
+	<input type = "text" value ="lname"/>
+		
+	</div>
+	
+	</form>
+</body>
+</html>

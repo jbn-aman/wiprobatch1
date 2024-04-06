@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+		https://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<bean id="p1" class="com.wipro.springcore.bean.Product">
+		<property name="productId" value="10"></property>
+		<property name="productName" value="Iphone R"></property>
+		<property name="productPrice" value="59100"></property>
+
+	</bean>
+
+	<bean id="emp1" class="com.wipro.springcore.bean.Employee">
+		<property name="empId" value="1"></property>
+		<property name="name" value="Aman"></property>
+		<property name="Skills">
+			<set>
+				<value>Sql</value>
+				<value>Java</value>
+				<value>Python</value>
+			</set>
+		</property>
+		<property name="address" ref="addr1"></property>
+		</bean>
+		<bean id="addr1" class="com.wipro.springcore.bean.Address">
+		<property name="addressId" value="1"></property>
+		<property name="doorNo" value="B-171"></property>
+		<property name="city" value="Ranchi"></property>
+		<property name="state" value="Jharkhand"></property>
+		</bean>
+		
+		
+
+	
+
+
+</beans>

@@ -1,0 +1,5 @@
+package com.wipro.springcore2.dao;
+
+public class ProductDao {
+
+}

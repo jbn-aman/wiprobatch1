@@ -1,0 +1,17 @@
+package com.wipro.springcore.main;
+
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+import com.wipro.springcore.bean.Product;
+
+public class ProductMain {
+	public static void main(String[] args) {
+
+		ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("springcore.xml");
+		Product product = (Product) context.getBean("p1");
+
+		System.out.println("Product Id :" + product.getProductId());
+		System.out.println("Product Name :" + product.getProductName());
+		System.out.println("Product Price :" + product.getProductPrice());
+	}
+}

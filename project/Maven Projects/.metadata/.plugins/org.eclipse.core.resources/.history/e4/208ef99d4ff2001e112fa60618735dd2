@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+		https://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<bean id="book1" class="com.wipro.springcore2.bean.Book" autowire="byName">
+		<property name="bookId" value="10"></property>
+		<property name="bookName" value="Java"></property>
+		<property name="bookPrice" value="590"></property>
+		<!--  <property name="bookAuthor" ref="Author1"></property> -->
+	</bean>
+
+	<bean id="author" class="com.wipro.springcore2.bean.Author">
+		<property name="authorId" value="101"></property>
+		<property name="authorName" value="Richard"></property>
+		<property name="authorEmail" value="richard@xyz.com"></property>
+
+	</bean>
+
+</beans>		

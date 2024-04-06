@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Background demo</title>
+</head>
+<body>
+
+	<h1 style="background-color:pink;color:purple;text-align:center;">Sample heading</h1>
+
+	<p>This is Para 1</p>
+
+</body>
+</html>

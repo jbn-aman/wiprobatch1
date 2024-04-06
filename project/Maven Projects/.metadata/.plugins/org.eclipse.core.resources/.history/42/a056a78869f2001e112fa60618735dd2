@@ -1,0 +1,23 @@
+package com.wipro.springcore2.dao;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import com.wipro.springcore2.Product;
+
+public class ProductDao {
+
+	private List<Product> products = new ArrayList<>();
+	
+	public void addProduct (Product product) {
+		products.add(product);		
+	}
+	
+	public Product findProductById(int productId) {
+		products.stream().filter(p-> p.getProductId()==productId).fi;
+		
+	}
+	
+	System.out.println("");
+	
+}

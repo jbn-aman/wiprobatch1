@@ -1,0 +1,45 @@
+package com.demoapp.dao;
+
+import java.sql.Connection;
+import java.sql.Date;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.sql.Statement;
+import java.util.ArrayList;
+import java.util.List;
+
+import com.demoapp.dto.Product;
+import com.demoapp.util.DBUtil;
+
+public class ProductDao1 {
+
+	public List<Product> findAllProducts() {
+		List<Product> products = new ArrayList<>();
+		String sql = "select * from product_tbl";
+
+		try (Connection con = DBUtil.getOracelDBConnection();
+		Statement st = con.createStatement();
+		ResultSet rs = st.executeQuery(sql);) {
+
+		while (rs.next()) {
+		int pId = rs.getInt(1);
+		String pname = rs.getString(2);
+		double pprice = rs.getDouble(3);
+		Date mfd = rs.getDate(4);
+		String category = rs.getString(5);
+
+		Product product = new Product();
+		product.setProductId(pId);
+		product.setProductName(pname);
+		product.setProductPrice(pprice);
+		product.setMfd(mfd.toLocalDate());
+		product.setCategory(category);
+
+		products.add(product);
+		}
+		} catch (SQLException e) {
+		e.printStackTrace();
+		}
+		return products;
+	}
+}

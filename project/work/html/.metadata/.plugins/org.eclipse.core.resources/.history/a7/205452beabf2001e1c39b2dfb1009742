@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Poetry Website - Home</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Poetry Website</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="introduction">
+        <h2>Introduction</h2>
+        <p>Welcome to our poetry website! We aim to provide you with a collection of beautiful and inspiring poems.</p>
+    </section>
+
+    <section id="poetry-samples">
+        <h2>Poetry Samples</h2>
+        <div class="poetry-sample">
+            <!-- First poetry sample content here -->
+            <img src="../../assets/minorbird.jpg" alt="A Minor Bird">
+            <h3>A Minor Bird</h3>
+            <p>
+                I have wished a bird would fly away,<br>
+                And not sing by my house all day;<br><br>
+                Have clapped my hands at him from the door,<br>
+                When it seemed as if I could bear no more.<br><br>
+                The fault must partly have been in me.<br>
+                The bird was not to blame for his key.<br><br>
+                And of course there must be something wrong,<br>
+                In wanting to silence any song.
+            </p>
+        </div>
+        <div class="poetry-sample">
+            <!-- Second poetry sample content here -->
+            <img src="../../assets/theyear.jpg" alt="The Year">
+            <h3>The Year</h3>
+            <p>
+                What can be said in New Year rhymes,<br>
+                That’s not been said a thousand times?<br><br>
+                The new years come, the old years go,<br>
+                We know we dream, we dream we know.<br><br>
+                We rise up laughing with the light,<br>
+                We lie down weeping with the night.<br><br>
+                We hug the world until it stings,<br>
+                We curse it then and sigh for wings.<br><br>
+                We live, we love, we woo, we wed,<br>
+                We wreathe our brides, we sheet our dead.<br><br>
+                We laugh, we weep, we hope, we fear,<br>
+                And that’s the burden of the year.
+            </p>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>This Website is dedicated to promoting poetry and providing a platform for readers to explore and enjoy a wide range of poems.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>If you have any questions or feedback, please feel free to contact us using the form below.</p>
+        <form id="contactForm" method="post">
+            <!-- Contact form fields here -->
+            <div>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+            </div>
+            <div>
+                <input type="checkbox" id="subscribe" name="subscribe">
+                <label for="subscribe">Subscribe to Aman's Poetry Website</label>
+            </div>
+            <div>
+                <input type="radio" id="priority-low" name="priority" value="low" required>
+                <label for="priority-low">Low Priority</label>
+                <input type="radio" id="priority-medium" name="priority" value="medium">
+                <label for="priority-medium">Medium Priority</label>
+                <input type="radio" id="priority-high" name="priority" value="high">
+                <label for="priority-high">High Priority</label>
+            </div>
+            <div>
+                <input type="submit" value="Submit">
+                <input type="reset" value="Reset">
+            </div>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Aman's Poetry Website</p>
+    </footer>
+</body>
+</html>

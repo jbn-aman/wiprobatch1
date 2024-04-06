@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Registration</title>
+</head>
+<body>
+
+	<h2>Customer Registration</h2>
+
+	<form>
+	<div>
+	
+	<label>First name</label>
+	<input type = "text" value =""/>
+		
+	</div>
+	<div>
+	
+	<label>Last name</label>
+	<input type = "text" value =""/>
+		
+	</div>
+	
+	</div>
+	<div>
+	
+	<label>Gender</label>
+	<input type = "radio" value ="Male"/> M
+	<input type = "radio" value ="Female"/> F
+	</div>
+	
+	</form>
+</body>
+</html>

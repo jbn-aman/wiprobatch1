@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>CSS demo</title>
+
+<style>
+h1 {
+	color: lime;
+	text-align :center;
+	
+}
+
+p {
+	font-size :20px;
+  	}
+  	
+p1 {
+	color: blue;
+	font-size :40px
+	}
+</style>
+
+
+</head>
+<body>
+
+	<h1>Sample heading</h1>
+	
+	<p>This is Para 1</p>
+	<p>This is Para 2</p>
+	<p>This is Para 3</p>
+	<p>This is Para 4</p>
+	<p1>This is Para 5</p1>
+
+</body>
+</html>

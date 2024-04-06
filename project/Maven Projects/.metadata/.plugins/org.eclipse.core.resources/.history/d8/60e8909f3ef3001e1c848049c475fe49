@@ -1,0 +1,26 @@
+package com.abc.springweb.controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+import com.abc.springweb.model.Customer;
+
+@Controller
+public class CustomerController {
+
+	@RequestMapping("/customer")
+	public String displayCustomer(Model model) {
+
+		Customer customer = new Customer();
+		customer.setCustomerId(1);
+		customer.setFirstName("Aman");
+		customer.setLastName("Yadav");
+		customer.setAge(22);
+		customer.setEmail("prakashaman5@gmail.com");
+
+		model.addAttribute("mycustomer", customer);
+		return "customer-details";
+
+	}
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Registration</title>
+</head>
+<body>
+
+	<h2>Customer Registration</h2>
+
+	<form>
+		<div>
+
+			<label>First name</label> <input type="text" value="" />
+
+		</div>
+		<div>
+
+			<label>Last name</label> <input type="text" value="" />
+
+		</div>
+
+
+		<div>
+
+			<label>Gender</label> <input type="radio" name="gender" value="Male" />
+			M <input type="radio" name="gender" value="Female" /> F
+		</div>
+
+		<div>
+
+			<label>Email</label> <input type="email" name="email" />
+		</div>
+		<div>
+
+			<label>DOB</label> <input type="date" name="dob" />
+		</div>
+
+		<div>
+			<label>Country</label> <select>
+				<option value="##">--Select here--<option/>
+				<option value="India">INDIA<option/>
+				<option value="Us">US<option/>
+				<option value="Russia">RUSSIA<option/>
+				<option value="Poland">POLAND<option/>
+			</select>
+
+		</div>
+
+	</form>
+</body>
+</html>

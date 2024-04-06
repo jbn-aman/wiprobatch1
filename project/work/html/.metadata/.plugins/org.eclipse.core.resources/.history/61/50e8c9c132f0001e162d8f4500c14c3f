@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+
+	<h2>Home Page</h2>
+	
+	<p>
+		<a href="anchordemo.html">Go to Anchor Demo</a>
+	</p>
+	<p>
+		<a href="listdemo.html">Go to List Demo</a>
+	</p>
+
+	<p>
+		<a href="tabledemo.html">Go to Table Demo</a>
+	</p>
+	<p>
+		<a href="Image Demo.html">Go to Image Demo</a>
+	</p>
+	<p>
+		<a href="https://www.youtube.com/">Visit Youtube</a>
+	</p>
+
+</body>
+</html>

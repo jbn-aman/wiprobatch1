@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Background demo</title>
+
+<style>
+body {
+      background-color:pink;
+    
+	}
+	
+div {
+	  background-image: url("../../assets/Hyosung.jpg");
+      background-repeat : no-repeat;
+	}
+	
+h1 {
+	background-color:purple; font-size:30px;text-align : center;
+}
+</style>
+
+</head>
+<body>
+
+	<h1>Sample heading</h1>
+	
+	<div>
+	
+	<p>This is Para 1</p>
+	<p>This is Para 1</p>
+	<p>This is Para 1</p>
+	</div>
+
+	<p>This is Para 1</p>
+
+</body>
+</html>
